@@ -1,0 +1,71 @@
+body {
+    font-family: monospace;
+    background-color: lightgrey;
+}
+
+/* style the heading*/
+#heading {
+    text-align: center;
+    font-size: 2rem;
+}
+
+#heading h1 {
+    color: red;
+}
+
+hr {
+    height: 5px;
+    background-color: black;
+}
+
+/* style the buttons */
+#controls {
+     display: flex;
+     justify-content: space-evenly;
+     margin: 5%;
+}
+
+#controls button {
+    padding: 10px 30px;
+    font-size: 3rem;
+    border-radius: 10px;
+    width: 30%;
+    font-family: monospace;
+}
+
+#begin-container {
+    text-align: center;
+}
+
+#begin-container button {
+    padding: 10px 30px;
+    font-size: 3rem;
+    width: 25%;
+    border-radius: 50%;
+    font-family: monospace;
+}
+
+#lost {
+    background-color: hsl(0, 100%, 50%);
+}
+
+#lost:hover {
+    background-color:  hsl(0, 100%, 40%);
+}
+
+#found {
+    background-color: hsl(120, 100%, 50%);
+}
+
+#found:hover {
+    background-color: hsl(120, 100%, 40%);
+}
+
+#begin {
+    background-color: hsl(167, 61%, 42%);
+}
+
+#begin:hover {
+    background-color: hsl(167, 61%, 32%);
+}
+ 
