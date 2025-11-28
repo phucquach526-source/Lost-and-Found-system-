@@ -69,3 +69,70 @@ hr {
     background-color: hsl(167, 61%, 32%);
 }
  
+
+/* style for lostPage */
+
+/* style the search bar */
+.search {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    border-radius: 20px;
+    background-color: white;
+
+}
+
+.search-input {
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+
+/* style the table */
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+#table {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    text-align: left;
+}
+
+#createPost {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    background-color: hsl(167, 61%, 42%);
+    color: white;
+    border: none;
+}
+
+#createPost:hover {
+    background-color: hsl(167, 61%, 32%);
+}
+
+/* style for lostCreate page */
+#lostItemForm {
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* style for foundCreate page */
+#foundItemForm {
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
